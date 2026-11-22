@@ -1,14 +1,10 @@
 # Gutenberg Book Explorer
 
-A small Java 17 console application that scrapes a sample book catalog, lets you search titles, and manage a temporary reading list.
+A small console application that scrapes a sample book catalog, lets you search titles, and manage a temporary reading list.
 
 > **Data source note:** Despite the project name, the current code reads from [Books to Scrape](https://books.toscrape.com/), a demo storefront. It displays book titles and prices; author information is not available from the site's catalog pages, so author search is currently unsupported.
 
-## Requirements
 
-- Java 17 or newer
-- Apache Maven 3.8 or newer
-- Internet access to download Maven dependencies on the first run and retrieve the catalog
 
 ## Run
 
@@ -47,12 +43,5 @@ These images show excerpts from the captured console run, including catalog load
 
 ![Book details and reading-list actions](docs/images/reading-list.png)
 
-## Build and smoke check
 
-Run the Maven verification lifecycle with:
 
-```bash
-mvn test
-```
-
-The repository currently has no automated test sources, so Maven compiles the application and reports that there are no tests to run.
