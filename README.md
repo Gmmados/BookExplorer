@@ -1,4 +1,4 @@
-# Gutenberg Book Explorer
+# Book Explorer
 
 A small console application that scrapes a sample book catalog, lets you search titles, and manage a temporary reading list.
 
